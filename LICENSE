@@ -1,24 +1,125 @@
-This is free and unencumbered software released into the public domain.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>IT Portfolio – Your Name</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f2f5;
+      color: #333;
+    }
 
-Anyone is free to copy, modify, publish, use, compile, sell, or
-distribute this software, either in source code form or as a compiled
-binary, for any purpose, commercial or non-commercial, and by any
-means.
+    header {
+      background-color: #1e1e2f;
+      color: #fff;
+      padding: 40px 0;
+      text-align: center;
+    }
 
-In jurisdictions that recognize copyright laws, the author or authors
-of this software dedicate any and all copyright interest in the
-software to the public domain. We make this dedication for the benefit
-of the public at large and to the detriment of our heirs and
-successors. We intend this dedication to be an overt act of
-relinquishment in perpetuity of all present and future rights to this
-software under copyright law.
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
-OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
-ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
-OTHER DEALINGS IN THE SOFTWARE.
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
 
-For more information, please refer to <https://unlicense.org>
+    section {
+      padding: 30px;
+      max-width: 900px;
+      margin: 20px auto;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+
+    h2 {
+      color: #1e1e2f;
+      border-bottom: 2px solid #3498db;
+      padding-bottom: 5px;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    ul li::before {
+      content: "✔️ ";
+      color: #3498db;
+    }
+
+    .contact a {
+      color: #3498db;
+      text-decoration: none;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #1e1e2f;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>VIMAL KUMAR G.</h1>
+    <p>Basic WebDeveloper | Debugger | Problem Solver</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>
+      I'm a passionate IT student looking for opportunities to expand my hands-on experience. I'm skilled in troubleshooting, networking basics, and front-end development. Eager to learn and contribute in any technical support or IT-related role.
+    </p>
+  </section>
+
+  <section>
+    <h2>IT Experience</h2>
+    <ul><p>
+      I,m a fresher to work in a IT related company. Currently building my experience through personal projects. Eager to apply what I’ve learned in real-world environments.
+    
+    </p>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML, CSS</li>
+      <li>Hardware Troubleshooting</li>
+      <li>Basic Networking (TCP/IP, DNS, Wi-Fi setup)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>Student Helpdesk Ticket System:</strong> Built a simple web-based ticketing system using HTML, CSS, and JavaScript for school IT requests.</li>
+      <li><strong>Portfolio Website:</strong> Designed and developed this very portfolio to showcase my skills and projects.</li>
+      <li><strong>Network Setup:</strong> Helped configure a small office network (routers, IP settings, file sharing).</li>
+    </ul>
+  </section>
+
+  <section class="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+    <p>Phone: (123) 456-7890</p>
+    <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Your Name | IT Portfolio</p>
+  </footer>
+
+</body>
+</html>
